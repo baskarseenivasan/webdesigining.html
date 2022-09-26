@@ -1,0 +1,110 @@
+hyperlinks:
+  <p>I am creating a link to
+  <a href="http://www.payilagam.com">payilagam home page</a>
+  </p>
+
+  <p>i am creating a link to
+  <a href="https://www.payilagam.com"
+     title="the best place to learn open source content in tamil">kanyiam</a>
+  </p>
+
+Block level links:<br>
+   for adding link to images
+   <a href="https://www.linux.org/">
+   <img src="linux.jpeg" alt="linux logo that links to the linux homepage">
+</a><br>
+-------------------<br>
+
+index.html: 
+----------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>This is Sample homepage</h1>
+
+    <p>Visit my <a href="templates/index.html">Home Page</a>.</p>
+
+    <p>Want to contact a specific staff member? Find details on our <a href="contacts.html">contacts page</a>.</p>
+
+    <p>Want to Reach Us? Use our <a href="contactus.html#Mailing_address">address</a>.</p>
+  </body>
+</html>
+
+contactus.html
+-----------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My contacts page</title>
+  </head>
+
+  <body>
+    <h1>This is my Contact Us page</h1>
+
+    <p>The <a href="#Mailing_address">company mailing address</a> Please find at the bottom of this page.</p>
+
+    <p>Address</p>
+
+    <h2 id="Mailing_address"></h2>
+
+    <address>7 Vijaya Nagar<br>
+    Velachery<br>
+    Chennai<br>
+    Tamil Nadu, 600042</address>
+  </body>
+</html>
+
+
+open link in new tab:
+<a href="https://www.mozilla.org" target=_"blank"</a>
+
+Download attribute when linking to a download:
+ <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=linux64&lang=en-US"    download="firefox-latest-64bit-installer">
+  Download Latest Firefox for Linux (64-bit) (English, US)
+</a><br>
+
+
+
+
+Email link:
+  mailto:link indicates the email address of the intended recipient
+
+<a href="mailto:noone@langscape.com?-
+<a href="mailto:noone@langscape.com?cc=yarum_illai@kaniyam.com&bcc=nowhere@payilagam.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+  Send mail with cc, bcc, subject and body
+</a>
+</a>
+
+
+
+<table border=1>
+  <tr>
+    <th>பெயர்</th>
+    <th>வகுப்பு</th>
+    <th>ஊர்</th>
+  </tr>
+  <tr>
+    <td>கவின்</td>
+    <td>2</td>
+    <td>ஈரோடு</td>
+  </tr>
+  <tr>
+    <td>நந்தா</td>
+    <td>3</td>
+    <td>நாமக்கல்</td>
+  </tr>
+</table><br>
+
+
+
+<link rel="icon"type="image/x-icon" href="Linux_logo.jpg">
+
+
+<p>hi, i'm from <mark>Vellore</mark></p>
